@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{font-family: 'Ubuntu', sans-serif;
+padding: 0;
+margin: 0;
+
+}
+a{ 
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.to{
+    background-image: url(img.4.jpg);
+    display: flex;
+    width: 100%;
+    height: 640px;
+ background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+.d{color: black;}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 10px;
+}
+.d1{
+    font-size: 30px;
+display: flex;
+}
+ul{ width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.do{
+    color: aliceblue;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.do h1{
+    font-size: 80px;
+    margin-bottom: 10%;
+}
+.do p{ font-size:20px ;
+   margin-bottom: 20px; 
+}
+.do button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+
+.parent{ background: rgb(233, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+ .io{
+     width: 50%;
+     font-size: 30px;
+ 
+}
+ .io img{
+    width: 85%;
+  
+}
+
+
+
+.parent2{ background: rgb(233, 233, 233);
+    display: flex;
+   
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
+.lo2{
+    display: inline;
+    margin-top: 30px;
+    object-position: left;
+     float: left;
+     width:25%;
+   font-size: 20px;
+   margin-left: 5%;
+}
+.lo img{
+   
+    width: 50%;
+    
+    margin-left:30% ;
+    margin-top: 15%;
+     
+    margin-bottom: 20%;
+}
+
+
+.parent3{
+    background: rgb(233, 233, 233);
+   display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+  
+}
+
+
+.po2{
+    display: inline;
+    margin-top: 30px;
+    object-position: left;
+     float: left;
+     width:25%;
+   font-size: 20px;
+   margin-left: 5%;
+ 
+}
+.po img{
+   
+    width: 50%;
+    margin-left:30% ;
+   margin-top: 15%;
+
+    
+}
+/* .parent4{
+    font-size: 20px;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.parent4 h1{
+    margin-top: 50px;
+    padding: 25px 0px;
+    font-weight: 200;
+ text-align: center;
+ display: block;
+}
+.l img{
+    width: 25%;
+    text-align: right;
+}
+.l p{
+    display: block;
+    padding: 25px;
+} */
+
+.add{ background: rgb(233, 233, 233);
+    margin-top: 50px;
+    padding: 25px 0px;
+    font-weight: 200;
+ text-align: center;
+ display: block;
+ margin-top: 5%;
+}
+
+.parent4{
+    background: rgb(233, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.l{
+    
+    width: 25%;
+    margin-right: 6%;
+    margin-left:2% ;
+}
+
+.l img{
+    width: 100%;
+} 
+
+.parent5{
+    background: rgb(192, 192, 192);
+}
+ .s{
+    width: 20%;
+  font-size: 20px;
+    display:inline-block;
+    margin-top: 15%;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-bottom: 15%;
+ }
